@@ -34,6 +34,9 @@ public class Exercício3 {
       else if(centUser >= 1 && dezeUser == 1){
          System.out.print(cent[centUser] + " e " + excessao[uniUser]);
       }
+         else if(centUser == 1 && dezeUser == 0 && uniUser == 0){
+         System.out.print("cem");
+      }
       else if(uniUser == 0){
          System.out.print(cent[centUser] + " e " + deze[dezeUser]);
       }
